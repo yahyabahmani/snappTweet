@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086CAAE12811FFE200007583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAAE02811FFE200007583 /* AppDelegate.swift */; };
+		086CAAE32811FFE200007583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAAE22811FFE200007583 /* SceneDelegate.swift */; };
+		086CAAE52811FFE200007583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAAE42811FFE200007583 /* ViewController.swift */; };
+		086CAAE82811FFE200007583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086CAAE62811FFE200007583 /* Main.storyboard */; };
+		086CAAEA2811FFE300007583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086CAAE92811FFE300007583 /* Assets.xcassets */; };
+		086CAAED2811FFE300007583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086CAAEB2811FFE300007583 /* LaunchScreen.storyboard */; };
+		086CAAF82811FFE400007583 /* snappTweetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAAF72811FFE400007583 /* snappTweetTests.swift */; };
+		086CAB022811FFE400007583 /* snappTweetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAB012811FFE400007583 /* snappTweetUITests.swift */; };
+		086CAB042811FFE400007583 /* snappTweetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAB032811FFE400007583 /* snappTweetUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		086CAAF42811FFE400007583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086CAAD52811FFE100007583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086CAADC2811FFE200007583;
+			remoteInfo = snappTweet;
+		};
+		086CAAFE2811FFE400007583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086CAAD52811FFE100007583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086CAADC2811FFE200007583;
+			remoteInfo = snappTweet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086CAADD2811FFE200007583 /* snappTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snappTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		086CAAE02811FFE200007583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		086CAAE22811FFE200007583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		086CAAE42811FFE200007583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		086CAAE72811FFE200007583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		086CAAE92811FFE300007583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		086CAAEC2811FFE300007583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		086CAAEE2811FFE300007583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086CAAF32811FFE400007583 /* snappTweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snappTweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		086CAAF72811FFE400007583 /* snappTweetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snappTweetTests.swift; sourceTree = "<group>"; };
+		086CAAFD2811FFE400007583 /* snappTweetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snappTweetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		086CAB012811FFE400007583 /* snappTweetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snappTweetUITests.swift; sourceTree = "<group>"; };
+		086CAB032811FFE400007583 /* snappTweetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snappTweetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		086CAADA2811FFE200007583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CAAF02811FFE400007583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CAAFA2811FFE400007583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086CAAD42811FFE100007583 = {
+			isa = PBXGroup;
+			children = (
+				086CAADF2811FFE200007583 /* snappTweet */,
+				086CAAF62811FFE400007583 /* snappTweetTests */,
+				086CAB002811FFE400007583 /* snappTweetUITests */,
+				086CAADE2811FFE200007583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		086CAADE2811FFE200007583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				086CAADD2811FFE200007583 /* snappTweet.app */,
+				086CAAF32811FFE400007583 /* snappTweetTests.xctest */,
+				086CAAFD2811FFE400007583 /* snappTweetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		086CAADF2811FFE200007583 /* snappTweet */ = {
+			isa = PBXGroup;
+			children = (
+				086CAAE02811FFE200007583 /* AppDelegate.swift */,
+				086CAAE22811FFE200007583 /* SceneDelegate.swift */,
+				086CAAE42811FFE200007583 /* ViewController.swift */,
+				086CAAE62811FFE200007583 /* Main.storyboard */,
+				086CAAE92811FFE300007583 /* Assets.xcassets */,
+				086CAAEB2811FFE300007583 /* LaunchScreen.storyboard */,
+				086CAAEE2811FFE300007583 /* Info.plist */,
+			);
+			path = snappTweet;
+			sourceTree = "<group>";
+		};
+		086CAAF62811FFE400007583 /* snappTweetTests */ = {
+			isa = PBXGroup;
+			children = (
+				086CAAF72811FFE400007583 /* snappTweetTests.swift */,
+			);
+			path = snappTweetTests;
+			sourceTree = "<group>";
+		};
+		086CAB002811FFE400007583 /* snappTweetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				086CAB012811FFE400007583 /* snappTweetUITests.swift */,
+				086CAB032811FFE400007583 /* snappTweetUITestsLaunchTests.swift */,
+			);
+			path = snappTweetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		086CAADC2811FFE200007583 /* snappTweet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086CAB072811FFE400007583 /* Build configuration list for PBXNativeTarget "snappTweet" */;
+			buildPhases = (
+				086CAAD92811FFE200007583 /* Sources */,
+				086CAADA2811FFE200007583 /* Frameworks */,
+				086CAADB2811FFE200007583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snappTweet;
+			productName = snappTweet;
+			productReference = 086CAADD2811FFE200007583 /* snappTweet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		086CAAF22811FFE400007583 /* snappTweetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086CAB0A2811FFE400007583 /* Build configuration list for PBXNativeTarget "snappTweetTests" */;
+			buildPhases = (
+				086CAAEF2811FFE400007583 /* Sources */,
+				086CAAF02811FFE400007583 /* Frameworks */,
+				086CAAF12811FFE400007583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086CAAF52811FFE400007583 /* PBXTargetDependency */,
+			);
+			name = snappTweetTests;
+			productName = snappTweetTests;
+			productReference = 086CAAF32811FFE400007583 /* snappTweetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		086CAAFC2811FFE400007583 /* snappTweetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086CAB0D2811FFE400007583 /* Build configuration list for PBXNativeTarget "snappTweetUITests" */;
+			buildPhases = (
+				086CAAF92811FFE400007583 /* Sources */,
+				086CAAFA2811FFE400007583 /* Frameworks */,
+				086CAAFB2811FFE400007583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086CAAFF2811FFE400007583 /* PBXTargetDependency */,
+			);
+			name = snappTweetUITests;
+			productName = snappTweetUITests;
+			productReference = 086CAAFD2811FFE400007583 /* snappTweetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		086CAAD52811FFE100007583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					086CAADC2811FFE200007583 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					086CAAF22811FFE400007583 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 086CAADC2811FFE200007583;
+					};
+					086CAAFC2811FFE400007583 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 086CAADC2811FFE200007583;
+					};
+				};
+			};
+			buildConfigurationList = 086CAAD82811FFE100007583 /* Build configuration list for PBXProject "snappTweet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 086CAAD42811FFE100007583;
+			productRefGroup = 086CAADE2811FFE200007583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				086CAADC2811FFE200007583 /* snappTweet */,
+				086CAAF22811FFE400007583 /* snappTweetTests */,
+				086CAAFC2811FFE400007583 /* snappTweetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		086CAADB2811FFE200007583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086CAAED2811FFE300007583 /* LaunchScreen.storyboard in Resources */,
+				086CAAEA2811FFE300007583 /* Assets.xcassets in Resources */,
+				086CAAE82811FFE200007583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CAAF12811FFE400007583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CAAFB2811FFE400007583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086CAAD92811FFE200007583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086CAAE52811FFE200007583 /* ViewController.swift in Sources */,
+				086CAAE12811FFE200007583 /* AppDelegate.swift in Sources */,
+				086CAAE32811FFE200007583 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CAAEF2811FFE400007583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086CAAF82811FFE400007583 /* snappTweetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086CAAF92811FFE400007583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086CAB022811FFE400007583 /* snappTweetUITests.swift in Sources */,
+				086CAB042811FFE400007583 /* snappTweetUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		086CAAF52811FFE400007583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 086CAADC2811FFE200007583 /* snappTweet */;
+			targetProxy = 086CAAF42811FFE400007583 /* PBXContainerItemProxy */;
+		};
+		086CAAFF2811FFE400007583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 086CAADC2811FFE200007583 /* snappTweet */;
+			targetProxy = 086CAAFE2811FFE400007583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		086CAAE62811FFE200007583 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086CAAE72811FFE200007583 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		086CAAEB2811FFE300007583 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086CAAEC2811FFE300007583 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		086CAB052811FFE400007583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		086CAB062811FFE400007583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		086CAB082811FFE400007583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = snappTweet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.snappTweet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		086CAB092811FFE400007583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = snappTweet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.snappTweet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		086CAB0B2811FFE400007583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.snappTweetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snappTweet.app/snappTweet";
+			};
+			name = Debug;
+		};
+		086CAB0C2811FFE400007583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.snappTweetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snappTweet.app/snappTweet";
+			};
+			name = Release;
+		};
+		086CAB0E2811FFE400007583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.snappTweetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snappTweet;
+			};
+			name = Debug;
+		};
+		086CAB0F2811FFE400007583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.snappTweetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snappTweet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		086CAAD82811FFE100007583 /* Build configuration list for PBXProject "snappTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086CAB052811FFE400007583 /* Debug */,
+				086CAB062811FFE400007583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086CAB072811FFE400007583 /* Build configuration list for PBXNativeTarget "snappTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086CAB082811FFE400007583 /* Debug */,
+				086CAB092811FFE400007583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086CAB0A2811FFE400007583 /* Build configuration list for PBXNativeTarget "snappTweetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086CAB0B2811FFE400007583 /* Debug */,
+				086CAB0C2811FFE400007583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086CAB0D2811FFE400007583 /* Build configuration list for PBXNativeTarget "snappTweetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086CAB0E2811FFE400007583 /* Debug */,
+				086CAB0F2811FFE400007583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 086CAAD52811FFE100007583 /* Project object */;
+}
