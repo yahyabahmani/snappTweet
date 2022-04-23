@@ -1,0 +1,15 @@
+disabled_rules:
+     - line_length
+     - force_cast
+     - identifier_name
+     - type_name
+
+opt_in_rules: # some rules are turned off by default, so you need to opt-in
+     - empty_count # Find all the available rules by running: `swiftlint rules`
+    
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+  - Source/ExcludedFolder
+  - Source/ExcludedFile.swift
+  - Source/*/ExcludedFile.swift # Exclude files with a wildcard
