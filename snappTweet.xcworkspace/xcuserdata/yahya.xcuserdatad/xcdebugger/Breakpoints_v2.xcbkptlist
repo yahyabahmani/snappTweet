@@ -14,8 +14,8 @@
             filePath = "snappTweet/ApiUrl/HTTPService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "request(method:parameter:andUrl:succeeded:failure:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23,16 +23,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7421ABB2-8F1D-4456-BBC6-0BC26E75EC75"
-            shouldBeEnabled = "Yes"
+            uuid = "34740493-4621-4E00-9FCE-A64C2E1CBA2A"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "snappTweet/Scenes/Main/MainViewModel.swift"
+            filePath = "snappTweet/ApiUrl/HTTPService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "search_query()"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "request(method:parameter:andUrl:succeeded:failure:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

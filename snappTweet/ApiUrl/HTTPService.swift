@@ -9,6 +9,7 @@ import Foundation
 import Alamofire
 
 final class HTTPService {
+  
 class func request<T:Codable>(method: HTTPMethod, parameter: Dictionary<String, Any>? = nil,andUrl url:String,succeeded: @escaping ((T)->()),failure failed: @escaping ((Error)->())) {
       let headers: HTTPHeaders = [.authorization(bearerToken: ApiURL.token)]
 

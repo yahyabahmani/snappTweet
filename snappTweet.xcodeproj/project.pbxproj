@@ -14,7 +14,6 @@
 		085CF14C2812B469006157D0 /* ApiURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CF1482812B469006157D0 /* ApiURL.swift */; };
 		085CF14E2812B469006157D0 /* MembershipRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CF14A2812B469006157D0 /* MembershipRepository.swift */; };
 		085CF14F2812B469006157D0 /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CF14B2812B469006157D0 /* HTTPService.swift */; };
-		085CF1512812BB13006157D0 /* ConstantString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CF1502812BB13006157D0 /* ConstantString.swift */; };
 		085CF1552812F9BA006157D0 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CF1532812F9BA006157D0 /* MainTableViewCell.swift */; };
 		085CF1562812F9BA006157D0 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085CF1542812F9BA006157D0 /* MainTableViewCell.xib */; };
 		085CF1582812FA81006157D0 /* ExtensionTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CF1572812FA81006157D0 /* ExtensionTableView.swift */; };
@@ -25,7 +24,6 @@
 		085CF1642813446E006157D0 /* DetailsTweetCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CF1632813446E006157D0 /* DetailsTweetCoordinator.swift */; };
 		086CAAE12811FFE200007583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAAE02811FFE200007583 /* AppDelegate.swift */; };
 		086CAAE32811FFE200007583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAAE22811FFE200007583 /* SceneDelegate.swift */; };
-		086CAAE52811FFE200007583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAAE42811FFE200007583 /* ViewController.swift */; };
 		086CAAE82811FFE200007583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086CAAE62811FFE200007583 /* Main.storyboard */; };
 		086CAAEA2811FFE300007583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086CAAE92811FFE300007583 /* Assets.xcassets */; };
 		086CAAED2811FFE300007583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086CAAEB2811FFE300007583 /* LaunchScreen.storyboard */; };
@@ -71,7 +69,6 @@
 		085CF1482812B469006157D0 /* ApiURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiURL.swift; sourceTree = "<group>"; };
 		085CF14A2812B469006157D0 /* MembershipRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembershipRepository.swift; sourceTree = "<group>"; };
 		085CF14B2812B469006157D0 /* HTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
-		085CF1502812BB13006157D0 /* ConstantString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantString.swift; sourceTree = "<group>"; };
 		085CF1532812F9BA006157D0 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		085CF1542812F9BA006157D0 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		085CF1572812FA81006157D0 /* ExtensionTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTableView.swift; sourceTree = "<group>"; };
@@ -83,7 +80,6 @@
 		086CAADD2811FFE200007583 /* snappTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snappTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		086CAAE02811FFE200007583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		086CAAE22811FFE200007583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		086CAAE42811FFE200007583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		086CAAE72811FFE200007583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		086CAAE92811FFE300007583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		086CAAEC2811FFE300007583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -206,7 +202,6 @@
 				086CAB172812123800007583 /* Scenes */,
 				086CAB1228120F8800007583 /* Suport */,
 				086CAB1128120F7300007583 /* StoryBoard */,
-				086CAAE42811FFE200007583 /* ViewController.swift */,
 				086CAAEE2811FFE300007583 /* Info.plist */,
 			);
 			path = snappTweet;
@@ -247,7 +242,6 @@
 				086CAAE22811FFE200007583 /* SceneDelegate.swift */,
 				086CAAE92811FFE300007583 /* Assets.xcassets */,
 				086CAAEB2811FFE300007583 /* LaunchScreen.storyboard */,
-				085CF1502812BB13006157D0 /* ConstantString.swift */,
 			);
 			path = Suport;
 			sourceTree = "<group>";
@@ -586,14 +580,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086CAAE52811FFE200007583 /* ViewController.swift in Sources */,
 				085CF14E2812B469006157D0 /* MembershipRepository.swift in Sources */,
 				086CAB252812142200007583 /* StoryBoardName.swift in Sources */,
 				086CAB1D281213EB00007583 /* BaseViewModel.swift in Sources */,
 				085CF1642813446E006157D0 /* DetailsTweetCoordinator.swift in Sources */,
 				086CAB242812142200007583 /* BaseCoordinate.swift in Sources */,
 				085CF14C2812B469006157D0 /* ApiURL.swift in Sources */,
-				085CF1512812BB13006157D0 /* ConstantString.swift in Sources */,
 				086CAB232812142200007583 /* AlertTemplate.swift in Sources */,
 				085CF14F2812B469006157D0 /* HTTPService.swift in Sources */,
 				085CF1622813444E006157D0 /* DetailsTweetViewModel.swift in Sources */,

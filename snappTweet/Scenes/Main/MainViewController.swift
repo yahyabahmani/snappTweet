@@ -10,7 +10,6 @@ import Combine
 
 final class MainViewController: UIViewController {
   var viewModel: MainViewModel!
-//  var coordinator: Coordinatable!
   let searchController = UISearchController(searchResultsController: nil)
   var subscriptions = Set<AnyCancellable>()
   @IBOutlet weak var tableView: UITableView!
@@ -19,7 +18,6 @@ final class MainViewController: UIViewController {
     self.setupView()
     self.setupSearchBarListeners()
     self.viewModel.search_query()
-    // Do any additional setup after loading the view.
   }
   fileprivate func setupSearchBarListeners() {
     let publisher = NotificationCenter.default

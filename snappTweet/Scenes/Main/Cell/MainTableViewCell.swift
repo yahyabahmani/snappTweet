@@ -12,14 +12,11 @@ final class MainTableViewCell: UITableViewCell {
   @IBOutlet weak var titleLabel: UILabel!
   override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
   func fill(_ model: TweetModel) {
     self.titleLabel.text = model.text
   }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 }

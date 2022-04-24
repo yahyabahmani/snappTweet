@@ -6,7 +6,7 @@
 //
 
 import Foundation
-final class MembershipRepository: ApiClientProtocol {
+struct MembershipRepository: ApiClientProtocol {
    func getShareList(query: String, success succeeds:@escaping ([TweetModel])->(), failure failed:@escaping (Error)->()){
       let url = ApiURL.list_search
       let params = ["query": query]
@@ -15,5 +15,5 @@ final class MembershipRepository: ApiClientProtocol {
       }){ error in
         failed(error)
       }
-  }
+  }  
 }
