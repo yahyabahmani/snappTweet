@@ -16,6 +16,8 @@ final class MainViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.setupView()
+    self.viewModel.getStream()
+
     self.setupSearchBarListeners()
     self.viewModel.search_query()
   }

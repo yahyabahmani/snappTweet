@@ -38,6 +38,9 @@
 		086CAB272812169200007583 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAB262812169200007583 /* MainViewController.swift */; };
 		086CAB29281216B200007583 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAB28281216B200007583 /* MainViewModel.swift */; };
 		086CAB2B281216D000007583 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086CAB2A281216D000007583 /* MainCoordinator.swift */; };
+		0890920C281C030900C703A9 /* TweetRuleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0890920B281C030900C703A9 /* TweetRuleModel.swift */; };
+		0890920E281C057100C703A9 /* Encodable+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0890920D281C057100C703A9 /* Encodable+Helper.swift */; };
+		08909210281C059300C703A9 /* TweetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0890920F281C059300C703A9 /* TweetRequest.swift */; };
 		0A39FD79C54EA13853E358C7 /* Pods_snappTweetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F4CCA8EB7C66FFB3459667 /* Pods_snappTweetTests.framework */; };
 		6244C929936022B365716E17 /* Pods_snappTweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E1A34DF3E2FBBCA7616245 /* Pods_snappTweet.framework */; };
 		8F2C1F730DBEF826CA7BF580 /* Pods_snappTweet_snappTweetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F0732C47DF52D6CDF0F6D6 /* Pods_snappTweet_snappTweetUITests.framework */; };
@@ -97,6 +100,9 @@
 		086CAB262812169200007583 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		086CAB28281216B200007583 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		086CAB2A281216D000007583 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		0890920B281C030900C703A9 /* TweetRuleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRuleModel.swift; sourceTree = "<group>"; };
+		0890920D281C057100C703A9 /* Encodable+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Helper.swift"; sourceTree = "<group>"; };
+		0890920F281C059300C703A9 /* TweetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRequest.swift; sourceTree = "<group>"; };
 		096D2BF42B5901EDDA3BB4AA /* Pods-snappTweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snappTweet.release.xcconfig"; path = "Target Support Files/Pods-snappTweet/Pods-snappTweet.release.xcconfig"; sourceTree = "<group>"; };
 		24B8478A97B0778716AD459F /* Pods-snappTweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snappTweet.debug.xcconfig"; path = "Target Support Files/Pods-snappTweet/Pods-snappTweet.debug.xcconfig"; sourceTree = "<group>"; };
 		51F4CCA8EB7C66FFB3459667 /* Pods_snappTweetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snappTweetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +163,7 @@
 			children = (
 				085CF1572812FA81006157D0 /* ExtensionTableView.swift */,
 				085CF15A28133F52006157D0 /* UIView+Helper.swift */,
+				0890920D281C057100C703A9 /* Encodable+Helper.swift */,
 			);
 			path = Extenstion;
 			sourceTree = "<group>";
@@ -270,6 +277,8 @@
 			isa = PBXGroup;
 			children = (
 				085CF1462812B3D8006157D0 /* TweetModel.swift */,
+				0890920B281C030900C703A9 /* TweetRuleModel.swift */,
+				0890920F281C059300C703A9 /* TweetRequest.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -581,6 +590,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				085CF14E2812B469006157D0 /* MembershipRepository.swift in Sources */,
+				0890920C281C030900C703A9 /* TweetRuleModel.swift in Sources */,
 				086CAB252812142200007583 /* StoryBoardName.swift in Sources */,
 				086CAB1D281213EB00007583 /* BaseViewModel.swift in Sources */,
 				085CF1642813446E006157D0 /* DetailsTweetCoordinator.swift in Sources */,
@@ -594,10 +604,12 @@
 				085CF1552812F9BA006157D0 /* MainTableViewCell.swift in Sources */,
 				086CAB2B281216D000007583 /* MainCoordinator.swift in Sources */,
 				085CF1582812FA81006157D0 /* ExtensionTableView.swift in Sources */,
+				08909210281C059300C703A9 /* TweetRequest.swift in Sources */,
 				086CAB29281216B200007583 /* MainViewModel.swift in Sources */,
 				085CF15B28133F52006157D0 /* UIView+Helper.swift in Sources */,
 				086CAAE12811FFE200007583 /* AppDelegate.swift in Sources */,
 				086CAB272812169200007583 /* MainViewController.swift in Sources */,
+				0890920E281C057100C703A9 /* Encodable+Helper.swift in Sources */,
 				086CAAE32811FFE200007583 /* SceneDelegate.swift in Sources */,
 				086CAB222812142200007583 /* InstantiateViewControllerType.swift in Sources */,
 				085CF1472812B3D8006157D0 /* TweetModel.swift in Sources */,

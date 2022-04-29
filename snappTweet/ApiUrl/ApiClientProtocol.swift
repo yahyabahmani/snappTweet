@@ -7,5 +7,8 @@
 
 import Foundation
 protocol ApiClientProtocol {
-  func getShareList(query: String, success succeeds:@escaping ([TweetModel])->(), failure failed:@escaping (Error)->())
+  func addRule(query: String, success succeeds:@escaping (TweetRuleData?)->(), failure failed:@escaping (Error)->())
+  func removeRule(query: String, success succeeds:@escaping (TweetRemoveResult)->(), failure failed:@escaping (Error)->())
+  func getStream( success succeeds:@escaping (TweetData)->(), failure failed:@escaping (Error)->())
+  
 }

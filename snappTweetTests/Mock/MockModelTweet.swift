@@ -8,6 +8,18 @@
 import Foundation
 @testable import snappTweet
 class MockModelTweet:ApiClientProtocol{
+  func addRule(query: String, success succeeds: @escaping (TweetRuleData?) -> (), failure failed: @escaping (Error) -> ()) {
+    
+  }
+  
+  func removeRule(query: String, success succeeds: @escaping (TweetRemoveResult) -> (), failure failed: @escaping (Error) -> ()) {
+    
+  }
+  
+  func getStream(success succeeds: @escaping (TweetData) -> (), failure failed: @escaping (Error) -> ()) {
+    
+  }
+  
   var shouldReturnFalse = false
   
   enum MockServiceError:Error{

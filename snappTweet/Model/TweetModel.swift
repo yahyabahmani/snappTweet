@@ -7,9 +7,10 @@
 
 import Foundation
 struct TweetData: Codable {
-  var data: [TweetModel]
+  var data: TweetModel
 }
 struct TweetModel: Codable {
   let id: String
   let text: String
 }
+

@@ -26,8 +26,8 @@ func test_Model_is_Valid() {
   }
   func test_api_is_valid() {
     let expectation = self.expectation(description: "ready")
-    membershipApi.getShareList(query: "ios") { result in
-      XCTAssertFalse(result.isEmpty)
+    membershipApi.addRule(query: "") { result in
+      XCTAssertTrue(result == nil)
       expectation.fulfill()
     } failure: { error in
       XCTFail("Error in apo test")

@@ -12,9 +12,7 @@ final class HTTPService {
   
 class func request<T:Codable>(method: HTTPMethod, parameter: Dictionary<String, Any>? = nil,andUrl url:String,succeeded: @escaping ((T)->()),failure failed: @escaping ((Error)->())) {
       let headers: HTTPHeaders = [.authorization(bearerToken: ApiURL.token)]
-
-        print("ib-log***\(url)^^^^^")
-      AF.request(url, method: method, parameters: parameter, headers: headers).validate(statusCode: 200...320).response { response in
+  AF.request(url, method: method, parameters: parameter, encoding: JSONEncoding.default, headers: headers).validate().response { response in
             switch  response.result {
 
             case .success:
@@ -33,6 +31,29 @@ class func request<T:Codable>(method: HTTPMethod, parameter: Dictionary<String, 
             }
         }
 }
+  class func streamRequest<T:Codable>(method: HTTPMethod, parameter: Dictionary<String, Any>? = nil,andUrl url:String,succeeded: @escaping ((T)->()),failure failed: @escaping ((Error)->())) {
+        let headers: HTTPHeaders = [.authorization(bearerToken: ApiURL.token)]
+    AF.streamRequest(url, method: method, headers: headers, automaticallyCancelOnStreamError: false).validate().responseStreamDecodable(of: T.self) { response in
+      switch response.event {
+         case let .stream(result):
+             switch result {
+             case let .success(value):
+               succeeded(value)
+             case let .failure(error):
+                 print(error)
+             }
+         case let .complete(completion):
+             print(completion)
+         }
+      
+    }
+
+  
+  }
+  
+  
+  
+
   class func parseError(statusCode: Int?) -> ClientError {
       guard let statusCode = statusCode else {
         return .unknown(message: ClientError.unknown(message: "").errorDescription)
